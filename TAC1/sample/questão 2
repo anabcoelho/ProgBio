@@ -2,20 +2,16 @@ refArquivo = open("C:\\Users\\anabe\\PycharmProjects\\CFB017\\TAC1\\dados"
                   "\\TriTrypDB-47_TcruziCLBrenerEsmeraldo-like_AnnotatedProteins.fasta")
 cabecalho=''
 sequencia= ''
-i=0
+
 for linha in refArquivo:
     if linha [0] == ">":
         cabecalho= linha
-        i+=1
-        print("Identificador: %s" % cabecalho)
+
+        print("Identificador: %sSequência: %s" % (cabecalho, sequencia))
+
         sequencia = ""
     else:
         sequencia += linha.replace('\n','')
-
-    print("Sequencia: %s" % sequencia) #imprime todas as sequências das linhas até chegar na sequencia real
-    x+=1
-
-    print(i)
 refArquivo.close()
 
 
