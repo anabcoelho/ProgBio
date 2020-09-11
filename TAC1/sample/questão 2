@@ -12,7 +12,7 @@ for linha in refArquivo:
     else:
         sequencia += linha.replace('\n','')
 
-    print("Sequencia: %s" % sequencia)
+    print("Sequencia: %s" % sequencia) #imprime todas as sequências das linhas até chegar na sequencia real
     x+=1
 
     print(i)
