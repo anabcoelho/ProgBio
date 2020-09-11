@@ -1,0 +1,7 @@
+Questão 4:
+a) a função upper retorna a string em caixa alta.
+b) a função rstrip remove da string os caracteres especificados (no padrão é o espaço) do lado direito da string.
+c) Nesse caso, se o dado Bird estivesse escrito de formas diferentes (como birD, BiRd, etc) o registro não iria
+aparecer ao final do código.
+d) Caso não incluída a função rstrip, poderá ter espaços no final da string, não sendo rechonhecida pelo código.
+Por exemplo "Bird  ".
