@@ -7,11 +7,13 @@ for linha in refArquivo:
     if linha [0] == ">":
         cabecalho= linha
 
-        print("Identificador: %sSequência: %s" % (cabecalho, sequencia))
+        print('Sequência: %s' %sequencia)
+        print('Cabeçalho: %s' % cabecalho)
 
         sequencia = ""
     else:
         sequencia += linha.replace('\n','')
+print('Sequência: %s' %sequencia)
 refArquivo.close()
 
 
