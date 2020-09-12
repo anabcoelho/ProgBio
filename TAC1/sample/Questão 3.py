@@ -5,3 +5,4 @@ with open("C:\\Users\\anabe\\PycharmProjects\\CFB017\\TAC1\\dados\\species.csv")
     for row in reader:
          if row[3].upper().rstrip() == "BIRD": #se na coluna 3 tem bird (escrito de qualquer maneira)
             print (row)
+f.close()
