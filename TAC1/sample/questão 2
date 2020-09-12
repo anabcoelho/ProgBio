@@ -1,3 +1,7 @@
+# Objetivo: Ler arquivo multi-FASTA com vários genes e suas sequência. E imprimir o cabeçalho e a sequência.
+# Variáveis: Entrada: refArquivo
+#            Saída: cabecalho, sequencia
+#            De trabalho: linha
 refArquivo = open("C:\\Users\\anabe\\PycharmProjects\\CFB017\\TAC1\\dados"
                   "\\TriTrypDB-47_TcruziCLBrenerEsmeraldo-like_AnnotatedProteins.fasta")
 cabecalho=''
@@ -7,12 +11,12 @@ for linha in refArquivo:
     if linha [0] == ">":
         cabecalho= linha
 
-        print('Sequência: %s \n' %sequencia)
-        print('Cabeçalho: %s' % cabecalho)
+        print('Sequência: %s \n' %sequencia) #sequencia anterior (já na mesma linha)
+        print('Cabeçalho: %s' % cabecalho) #Cabeçalho atual
 
-        sequencia = ""
+        sequencia = "" #zerar a sequência atual
     else:
-        sequencia += linha.replace('\n','')
+        sequencia += linha.replace('\n','')  #append das linhas da sequência
 print('Sequência: %s' %sequencia)
 refArquivo.close()
 
