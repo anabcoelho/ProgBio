@@ -7,7 +7,7 @@ for linha in refArquivo:
     if linha [0] == ">":
         cabecalho= linha
 
-        print('Sequência: %s' %sequencia)
+        print('Sequência: %s \n' %sequencia)
         print('Cabeçalho: %s' % cabecalho)
 
         sequencia = ""
