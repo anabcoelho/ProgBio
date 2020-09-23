@@ -28,4 +28,4 @@ soma= soma+ int(c['TB deaths'])
 s=df.loc[df['Country'] == "South Africa"]
 soma= soma+ int(s['TB deaths'])
 
-print(soma)
+print("Numero de mortos dos BRICS: %d" %soma)
