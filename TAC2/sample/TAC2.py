@@ -1,14 +1,9 @@
 import sys
-l= sys.argv
+l= sys.argv # Entrada arquivo m b
 excel= l[1]
-b= float(l[2])
-m= float (l[3])
+m= float(l[2])
+b= float (l[3])
 import pandas as pd
-#arqout= open ('..\\dados\\saida.out', 'w')
-#b=58.53223295
-#m=-3.97186047
-#with pd.ExcelFile ('..\\dados\\Valores_CT.xlsx') as xlsx:
-    #df = pd.read_excel(xlsx)
 with pd.ExcelFile(excel) as xlsx:
     df = pd.read_excel(xlsx)
 
