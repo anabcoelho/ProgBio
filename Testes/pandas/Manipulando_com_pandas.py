@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 
 
 ## lendo arquivo excel
-with pd.ExcelFile('../../Lista1/dados/WHOTB.xlsx') as xlsx:
+with pd.ExcelFile('../../Exercícios/Lista1/dados/WHOTB.xlsx') as xlsx:
     df = pd.read_excel(xlsx, 'Counts')
 
 ## visualizando as primeiras linhas com head()
