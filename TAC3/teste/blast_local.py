@@ -2,9 +2,8 @@ from Bio.Blast.Applications import *
 
 ### endereço completo para os arquivos
 
-sequencia = "..\\data\\TcCLB.506717.80_AA.fasta"
-sequenciasAlvo = "..\\data\\TriTrypDB-47_TcruziCLBrenerEsmeraldo-like_AnnotatedProteins.fasta"
-meuOutput = "..\\data\\out.blastp.outfmt6.txt"
+sequencia = "..\\dados\\TcCLB.506717.80_AA.fasta"
+sequenciasAlvo = "..\\dados\\tcruzi.fasta"
 
 blastp_path = "C:\\Program Files\\NCBI\\blast-2.10.1+\\bin\\blastp"
 
