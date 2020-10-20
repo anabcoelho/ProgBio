@@ -28,8 +28,8 @@ blast_result = open(meuOutput, "r")
 
 ##### indíces para os resultados do blast em formato 6 ("outfmt=6")
 
-qseqid = 0 #query (e.g., unknown gene) sequence id
-sseqid = 1 # subject (e.g., reference genome) sequence id
+qseqid = 0 #query  sequence id
+sseqid = 1 # subject  ptn id
 pident = 2 # percentage of identical matches
 length = 3 # alignment length (sequence overlap)
 mismatch = 4 # number of mismatches

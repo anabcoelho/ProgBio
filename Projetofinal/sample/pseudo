@@ -1,0 +1,35 @@
+import pacotes
+sys
+panda
+biopyton ( from Bio.Blast.Applications import *  e from Bio import SeqIO)
+
+                importar as entradas
+separar em variáveis (tabela, multifasta desconecido, multifasta conhecido)
+
+                leitura da tabela
+Criação de um DF
+        Calcular CPM
+        Calcular CPM media por condição
+            Ver no exemplo de panda no TAC2
+            Achar os 5 genes mais expressos de cada condição
+
+                Abrindo multifasta desconhecido
+procurar os 10 genes e gerar os 10 multifastas
+
+                blastx
+                função
+
+                Abrir saída
+criar DF com as saidas do formato 6 e ir adicionando as saídas
+ordenar por bitscore (ver os primeiros)
+comparar evalue
+
+                Buscar o gene no 1o DF
+CPM media em a e b
+
+                imprimir
+                gene_id
+                conda_CPMmed
+                condb_CPMmed
+                id_proteína_encontrada
+
