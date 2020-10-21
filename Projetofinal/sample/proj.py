@@ -1,11 +1,26 @@
 # importand pacotes
 import sys
+import pandas as pd
+from Bio.Blast.Applications import *
+from Bio import SeqIO
 
-
+###### provisório
+excel= "..\\data\\Tabela_1.xlsx"
+desc= "..\\data\\Rdesconhecidus.fasta"
+prolixus= "..\\dados\\Rprolixusptns.fasta"
 
 # importando dados da linha de comando
+#entrada tabela, multifasta desconhecido e multifasta conhecido
+#l= sys.argv
+#excel= l[1]
+#desc= l[2]
+#prolixus= l[3]
+
+
 
 # Ler xlsx
+with pd.ExcelFile(excel) as xlsx: #leitura arquivo
+    df = pd.read_excel(xlsx)
 
 # Importando fastas
 
