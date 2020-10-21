@@ -5,7 +5,7 @@ sequencia= str(input("Digite sua sequência:").upper()) # sequencia em letras ma
 
 #abrindo multifasta
 
-multifasta=open("..\\data\\multifastatcruzi.fasta", 'r') ###### invalid syntax ???????
+multifasta=open("..\\data\\multifastatcruzi.fasta", 'r')
 
 #procurar no multifasta
 Y=0 #numero de vezes que a sequencia apareceu
