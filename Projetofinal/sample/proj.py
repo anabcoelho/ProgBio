@@ -4,7 +4,7 @@ import pandas as pd
 from Bio.Blast.Applications import *
 from Bio import SeqIO
 
-###### provisório
+###### provisório #########
 excel= "..\\data\\Tabela_1.xlsx"
 desc= "..\\data\\Rdesconhecidus.fasta"
 prolixus= "..\\dados\\Rprolixusptns.fasta"

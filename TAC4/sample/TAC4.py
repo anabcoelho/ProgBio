@@ -1,3 +1,4 @@
+# conta a quantidade de um motivo em um multifasta
 #Importando bibliotecas
 from Bio import SeqIO
 
