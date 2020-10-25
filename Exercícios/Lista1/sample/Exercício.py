@@ -16,7 +16,7 @@ print( 'Ordenado e Normalizado \n %s' %datanorm)
 # BRICS
 #só consegui dessa forma
 #crei um dicionário (dic) com o b,r,i,c,s e mandei pd.dataframe(dic)
-# O dataframe tava aparecendo como vazio, apenas com as colunas
+
 b=df.loc[df['Country'] == "Brazil"]
 soma= int(b['TB deaths'])
 r=df.loc[df['Country'] == "Russian Federation"]
