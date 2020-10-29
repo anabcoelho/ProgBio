@@ -1,8 +1,8 @@
 #input na lista
-entrada = [float(i) for i in input("Digite números aleatórios:").split()]
+entrada = [float(i) for i in input("Digite números:").split()]
 # soma de todos os elementos da lista e cálculo da média
-media =float(sum(entrada)/len(entrada))
-# contadores para os números positivos e negativos
+media =sum(entrada)/len(entrada)
+# contagem de números positivos e negativos
 n = 0
 p = 0
 for num in entrada:

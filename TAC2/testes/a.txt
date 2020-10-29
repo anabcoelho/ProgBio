@@ -1,0 +1,11 @@
+ O volume na unidade C ‚ OS
+ O N£mero de S‚rie do Volume ‚ 3653-09E8
+
+ Pasta de C:\Users\anabe\PycharmProjects\CFB017\TAC2\testes
+
+26/10/2020  19:12    <DIR>          .
+26/10/2020  19:12    <DIR>          ..
+26/10/2020  19:13                 0 a.txt
+26/10/2020  19:10                97 importandoargumentos.py
+               2 arquivo(s)             97 bytes
+               2 pasta(s)   474.568.687.616 bytes dispon¡veis
