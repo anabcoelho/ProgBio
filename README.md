@@ -1,2 +1,2 @@
 # CFB017
-Repositório para a disciplina CFB017 (programação para biociências) 
+Repositório para a disciplina programação para biociências
